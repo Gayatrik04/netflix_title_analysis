@@ -8,20 +8,34 @@ The dataset contains information about each title, such as directors, cast, coun
 
 #Dataset Description
 
-The dataset netflix_titles.csv includes the following columns:
- Column Name    | Description                                            
- show_id        | Unique identifier for each title                       
- type           | Type of content (Movie or TV Show)                      
- title          | Name of the movie or TV show                            
- director       | Director(s) of the content                              
- cast           | Main cast members                                       
- country        | Country of production                                   
- date_added     | Date the title was added to Netflix                     
- lease_year     | Original release year                                   
- rating         | Content rating (PG, TV-MA, R, etc.)                     
- duration       | Duration of the movie or number of seasons for TV shows 
- listed_in      | Genre(s)                                                
- description    | Brief description of the content     
+The netflix_titles.csv dataset contains detailed information about movies and TV shows available on Netflix. Below is a description of each column included in the dataset:
+
+Columns and Their Descriptions
+- show_id
+A unique identifier assigned to each Netflix title.
+- type
+Indicates whether the content is a Movie or a TV Show.
+- title
+The name of the movie or TV show.
+- director
+The director(s) responsible for the content. Some entries may be blank if the director is unknown.
+- cast
+The main cast members featured in the title.
+- country
+The country or countries where the content was produced.
+- date_added
+The date on which the title was added to Netflix.
+- release_year
+The original release year of the title.
+- rating
+The official content rating (e.g., PG, TV-MA, R, etc.).
+- duration
+For movies: the total runtime.
+For TV shows: the number of seasons.
+- listed_in
+Genres or categories that describe the title (e.g., Drama, Comedy, Horror).
+- description
+A brief summary or plot description of the title.
 
 # Project Objectives
 
